@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sehatin.id — Konsultasi & Panduan Kesehatan</title>
+  <meta name="description" content="Sehatin.id — Konsultasi kesehatan online yang ramah dan profesional bersama Dr. Asiyah Asri Novia." />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <!-- Nunito Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Untitled-1.css" />
+</head>
+<body>
+  <!-- PRELOADER -->
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-content" role="status" aria-label="Memuat Sehatin.id">
+      <div class="maskot" aria-hidden="true">
+        <!-- inline maskot -->
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="5" fill="#90e0ef"/>
+          <path d="M8 8h8v8H8z" fill="#fff" opacity="0.95"/>
+          <text x="12" y="15" text-anchor="middle" font-size="9" font-weight="700" fill="#023e8a">S</text>
+        </svg>
+      </div>
+      <img src="logo.png" alt="Sehatin.id logo" class="preloader-logo" />
+    </div>
+  </div>
+
+  <!-- SCROLL PROGRESS -->
+  <div id="scrollBar" aria-hidden="true"></div>
+
+  <!-- SIDEDRAWER (mobile) -->
+  <div id="drawer" class="drawer" aria-hidden="true">
+    <button id="closeDrawer" class="drawer-close" aria-label="Tutup menu">✕</button>
+    <nav class="drawer-nav" aria-label="Drawer navigation">
+      <a href="#home" class="drawer-link">Beranda</a>
+      <a href="#story" class="drawer-link">Kenapa</a>
+      <a href="#about" class="drawer-link">Tentang</a>
+      <a href="#services" class="drawer-link">Layanan</a>
+      <a href="#stats" class="drawer-link">Statistik</a>
+      <a href="#contact" class="drawer-link">Kontak</a>
+    </nav>
+  </div>
+  <div id="drawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="left">
+      <button id="openDrawer" class="hamburger" aria-label="Buka menu" aria-controls="drawer">☰</button>
+      <div class="brand">
+        <div class="logo-dot" aria-hidden="true"><img src="logo.png" alt="" /></div>
+        <div class="brand-text">
+          <div class="brand-name">Sehatin.id</div>
+          <div class="brand-tag">Konsultasi & Panduan Kesehatan</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home">Beranda</a>
+      <a href="#story">Kenapa</a>
+      <a href="#about">Tentang</a>
+      <a href="#services">Layanan</a>
+      <a href="#stats">Statistik</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="right">
+      <button id="darkModeBtn" aria-pressed="false" title="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="eyebrow">Sehatin.id • Solusi Kesehatan</div>
+      <h1 id="hero-title"><span id="typed-text" aria-hidden="true"></span></h1>
+
+      <div class="tip-row">
+        <div id="dailyTip" class="tip">Tips sehat: —</div>
+        <button id="speakTip" class="icon-btn" title="Dengarkan tips">🔊</button>
+      </div>
+
+      <p class="lead">Selamat datang di Sehatin.id, teman setiamu dalam perjalanan menuju hidup yang lebih sehat dan bahagia. Kami percaya bahwa kesehatan bukan hanya tentang tubuh, tapi juga tentang hati dan pikiran yang tenang. Yuk, mulai langkah kecilmu hari ini — karena menjaga diri sendiri adalah bentuk cinta yang paling tulus.</p>
+      <div class="cta-row">
+        <button <a href="chat.html" class="cta-btn" id="startConsult">Mulai Konsultasi</a>
+        <a class="link" href="#services">Kunjungi Layanan Kami ➜</a>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="story" id="story" aria-labelledby="story-title">
+      <h2 id="story-title">Kenapa Sehatin.id Ada?</h2>
+      <p>Kami hadir karena percaya bahwa setiap orang berhak memahami tubuhnya sendiri dengan cara yang hangat dan mudah. Banyak orang ingin hidup sehat, tapi tidak tahu harus mulai dari mana. Dari situlah Sehatin.id lahir — sebagai ruang yang ramah, penuh semangat, dan siap menemanimu tanpa menghakimi. Di sini, kamu bisa curhat, belajar, dan menemukan solusi kesehatan yang pas buatmu dengan cara yang ringan dan menyenangkan.</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="photo-wrap" id="photoWrap">
+        <img src="poto.png" alt="Foto Dr. Asiyah Asri Novia" id="doctorPhoto">
+      </div>
+      <div class="about-text">
+        <h2 id="about-title">Tentang Dr. Asiyah Asri Novia</h2>
+        <p>Dr. Asiyah berpengalaman lebih dari 10 tahun dalam praktik kesehatan umum dan konsultasi kesehatan mental ringan. Pendekatannya hangat dan berfokus pada pemberdayaan pasien agar memahami tubuh dan pikirannya.</p>
+        <p><strong>Motto:</strong> “Setiap langkah kecil menuju sehat adalah kemenangan.”</p>
+        <p class="chip">Spesialis: Konsultasi Umum • Edukasi Kesehatan • Manajemen Stres</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services" aria-labelledby="services-title">
+      <h2 id="services-title" class="section-title">Layanan Kami</h2>
+      <p class="lead">Kami menyediakan berbagai layanan yang dibuat dengan penuh perhatian. Mulai dari konsultasi umum untuk keluhan ringan, pemeriksaan online untuk kenyamanan dari rumah, hingga edukasi kesehatan yang disampaikan secara santai namun tetap ilmiah — semua dirancang agar kamu merasa nyaman dan percaya diri menjalani langkah menuju sehat.</p>
+      <div class="service-grid">
+        <article class="service-card" tabindex="0">
+          <h3>🩺 Konsultasi Online</h3>
+          <p>Konsultasi via chat atau video call dengan dokter berpengalaman yang siap mendengarkan dan memberi saran praktis.</p>
+        </article>
+        <article class="service-card" tabindex="0">
+          <h3>💡 Tips & Edukasi</h3>
+          <p>Artikel singkat dan panduan harian yang mudah dipahami untuk membantu perubahan gaya hidup yang berkelanjutan.</p>
+        </article>
+        <article class="service-card" tabindex="0">
+          <h3>📆 Pantauan Rutin</h3>
+          <p>Pengingat pemeriksaan dan pemantauan berkala agar kesehatanmu terus terjaga tanpa repot.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- STATISTICS -->
+    <section class="stats" id="stats" aria-labelledby="stats-title">
+      <h2 id="stats-title" class="section-title">Statistik Sehatin.id</h2>
+      <p class="lead">Dalam perjalanan ini, kami bangga telah membantu ribuan pengguna. Angka kecil itu berarti banyak senyum, istirahat yang lebih tenang, dan langkah kecil yang berubah menjadi kebiasaan sehat.</p>
+      <div class="stats-grid">
+        <div class="stat">
+          <div class="stat-num" data-target="2000">0</div>
+          <div class="stat-label">Pasien Terbantu</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="98">0</div>
+          <div class="stat-label">Tingkat Kepuasan (%)</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="10">0</div>
+          <div class="stat-label">Tenaga Medis</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section-title">Hubungi Kami</h2>
+      <p class="lead">Kami selalu senang mendengar cerita dan pertanyaanmu. Kalau kamu ingin berkonsultasi, berbagi pengalaman, atau sekadar menyapa, silakan isi formulir di bawah ini. Jangan ragu, kami di sini untukmu.</p>
+      <form id="contactForm" onsubmit="return validateForm()">
+        <input id="name" name="name" type="text" placeholder="Nama lengkap" required aria-required="true" />
+        <input id="email" name="email" type="email" placeholder="Email" required aria-required="true" />
+        <textarea id="message" name="message" rows="5" placeholder="Tuliskan keluhan atau pertanyaan Anda..." required aria-required="true"></textarea>
+        <div class="form-row">
+          <button class="send-btn" type="submit">Kirim Pesan</button>
+          <button class="secondary" type="button" id="clearBtn">Bersihkan</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- CHATBOT MINI -->
+  <button id="chatBtn" aria-hidden="false" title="Bantuan">💬</button>
+  <div id="chatWindow" aria-hidden="true" role="dialog" aria-label="Chat Asisten Sehatin.id">
+    <div class="chatHeader">
+      <div class="maskotTiny" aria-hidden="true">S</div>
+      <div class="chatTitle">Asya — Asisten Sehatin.id</div>
+      <button id="closeChat" aria-label="Tutup chat">✖️</button>
+    </div>
+    <div id="chatBody" class="chatBody" role="log" aria-live="polite"></div>
+    <div class="chatInputRow">
+      <input id="chatInput" placeholder="Tulis sesuatu... (mis. saya pusing)" />
+      <button id="sendChat">Kirim</button>
+    </div>
+  </div>
+
+  <!-- SCROLL TO TOP -->
+  <button id="topBtn" aria-label="Kembali ke atas">⬆️</button>
+
+  <footer>
+    <div>📍 Klinik Cinta, Jl. Mawar No.45, Bandung • 📞 0877-1674-4971</div>
+    <div style="margin-top:8px;font-size:.92rem">&copy; <strong>Sehatin.id</strong> — 2025. Semua hak dilindungi.</div>
+  </footer>
+
+  <script src="Untitled-1.js"></script>
+</body>
+</html>
